@@ -7,6 +7,12 @@
 <title>DEVIEW 2016 Call For Speakers</title>
 <link rel="stylesheet" href="//cdn.jsdelivr.net/xeicon/1.0.4/xeicon.min.css">
 <link rel="stylesheet" href="css/deview2016_cfs.css">
+<meta property='og:url' content='http://deview.kr/2016/cfs'/>
+<meta property="og:type" content="website"/>
+<meta property='og:title' content='DEVIEW 2016 Call For Speakers'/>
+<meta property='og:description' content='올 10월 열리는 DEVIEW 2016 개발자 컨퍼런스에 가치있는 경험과 지식을 공유해주실 발표자를 모집합니다.'/>
+<meta property='og:image' content='http://deview.kr/img/deview_facebook.png'/>
+<meta property='fb:app_id' content='1435952716726510'/>
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!--[if lt IE 9]>
   <script src="js/html5shiv.min.js"></script>
@@ -14,8 +20,9 @@
 <![endif]-->
 </head>
 <body>
-    <div id="wrap">
-        <h1 class="blind">DEVIEW 2016 Call For Speakers preview</h1>
+	<!-- [D] 2차 오픈페이지 오픈시 second_open 추가 -->
+    <div id="wrap" class="second_open">
+        <h1 class="blind">DEVIEW 2015 Call For Speakers preview</h1>
         <div id="header" class="header">
             <div class="login">
                 <!-- [D] class="login_type" 영역에 로그인 별 클래스 적용
@@ -30,24 +37,42 @@
                          github : class="xi-github"
                          naver : class="xi-naver"
                 -->
-                <!-- 2차 오픈 적용내용 
-                <span class="login_type login_facebook"><i class="xi-facebook"></i></span><span class="login_info">Eunjeong ParkEunjeong ParkEunjeong ParkEunjeong Park님</span>
-                <a href="http://dev.ui.naver.com/svnview/dev/branches/deview2015_cfs/src/deview2015_cfs_apply.html" class="btn_log">로그아웃</a>
-                --> 
+                <span class="login_type login_facebook"><i class="xi-facebook"></i></span><span class="login_info">Eunjeong Park님</span>
+                <a href="" class="btn_log">Logout</a>
             </div>
         </div>
         <div id="container">
             <div class="spot_wrap">
                 <div class="spot">
-                    <h2 class="spot_tit"><a href="http://www.deview.kr"><img src="img/img_logo_txt.png" alt="DEVIEW 2016"></a></h2>
-                    <p class="spot_location_info">COEX Grand BallRoom, SEOUL<br>2016.10.24(Mon) ~ 10.25(Tue)</p>
-                    <a href="#" class="btn_video">WATCH VIDEO</a>
+                    <h2 class="spot_tit"><a href="http://www.deview.kr"><img src="img/img_sublogo_2nd.png" class="pc_view_logo" alt="DEVIEW 2016"><img src="img/img_sublogo_2nd_m.png" class="mobile_view_logo" alt="DEVIEW 2016"></a></h2>
+                    <p class="object_txt pc">Call For Speakers</p>
+                    <p class="spot_location_info pc">2016.10.24(Mon) ~ 10.25(Tue)<br>COEX Grand BallRoom, SEOUL</p>
+                    <p class="spot_location_info mobile">COEX Grand BallRoom, SEOUL<br>2016.10.24(Mon) ~ 10.25(Tue)</p>
+                    <p class="object_txt mobile">Call For Speakers</p>
+                    <a href="#" class="btn_video">지원하기</a>
                 </div>
-                <!-- 2nd spec 경우, 삭제영역 -->
-                <div class="spot_pic" id="spot_pic">
+                <div class="spot_pic" style="background:#333">
+                    <!-- [D] 슬라이더 적용 (li 의 style display는 개발적용시 제거) -->
+                    <ul class="slider_lst">
+                    	<!-- [D] 슬라이더 적용에 따른 class="on" 추가필요 -->
+                        <li class="on" style="display:list-item">
+                            <div class="slider no"><span class="blind">slide_images</span></div>
+                        </li>
+                        <li>
+                            <div class="slider no2"><span class="blind">slide_images</span></div>
+                        </li>
+                        <li>
+                            <div class="slider no3"><span class="blind">slide_images</span></div>
+                        </li>
+                    </ul>
+                    <ul class="slider_nav">
+                        <!-- [D] 슬라이더 이동에 따른 dot네비게이션 on 필요 -->
+                        <li class="on"><span class="blind">1</span></li>
+                        <li><span class="blind">2</span></li>
+                        <li><span class="blind">3</span></li>
+                    </ul>
                 </div>
             </div>
-            
             <div id="content" class="content">
                 <div class="section invitation">
                 	<h3 class="sec_tit"><strong>DEVIEW 2016</strong>을 빛내주실 발표자로 초대합니다.</h3>
@@ -57,8 +82,8 @@
                     <h3 class="sec_tit"><span>발표자</span> 모집일정</h3>
                     <div class="sec_detail_info">
                     	<ul>
-                        <li>공모기간 : 2016.07.19(화) ~ <span>2016.</span>08.05(금)</li>
-                        <li>발표기간 : 2016.08.26(금)까지 (발표자 개별 연락)</li>
+                        <li>공모기간 : 2016.07.14(목) ~ <span>2016.</span>08.03(수) 3주간</li>
+                        <li>발표기간 : 2016.08.26(금)까지(발표자 개별연락)</li>
                         </ul>
                     </div>
                 </div>
@@ -136,7 +161,7 @@
                 	</div>
             	</div>
                 <div class="speaker_noti">
-                <p class="sec_noti_txt">DEVIEW는 서로의 가치있는 지식을 공유하고 함께 성장하자는 <br>취지로 진행되는 무료 개발자 컨퍼런스입니다.<br class="pc">참석하시는 연사분들께도 별도의 강사료를 지급하지는 <br>않을 예정이니 양해해주시길 부탁드리겠습니다.</p>
+                <p class="sec_noti_txt">DEVIEW는 서로의 가치있는 지식을 공유하고 함께 성장하자는 <br>취지로 진행되는 무료 개발자 컨퍼런스입니다.<br class="pc">참석하시는 연사분들께서도 별도의 강사료를 지급하지는 <br>않을 예정이니 양해해주시길 부탁드리겠습니다.</p>
         		</div>
             </div>
         </div>
@@ -181,40 +206,91 @@
 
         <!-- //footer -->
     </div>
-    <!-- 영상 레이어 -->
-    <!-- [D] 상단 WATCH VIDEO 버튼 클릭 시 노출 -->
-    <div class="ly_movie" style="display:none">
-        <!-- 영상 영역 -->
-        <iframe src="" id="video" width="100%" height="100%" frameborder="0" allowfullscreen="" class="spot_movie_iframe"></iframe>
-        <!-- 영상 영역 -->
-        <a href="#" class="btn_close_movie"><span class="blind">닫기</span></a>
-        <div class="ly_move_bg"></div>
-    </div>
-    <!-- //영상 레이어 -->
     <!-- 딤드 -->
     <!-- [D] 상단 WATCH VIDEO 버튼 클릭 시 노출 -->
     <div class="dimmed" style="display:none"></div>
     <!-- //딤드 -->
+    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+    <script src="js/footer_selector.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/namespace.js"></script>
+    <script src="js/cfs.mainpage.js"></script>
+    <script>
+        cfs.mainPage.header.init();
+    </script>
+    <!-- 마크업 확인 스크립트 -->
+    <script>
+        // 데이터 확인용 스크립트 (개발 적용 시 제거 해주시면 됩니다.)
+        var html = '<div id="markp_test" style="position:fixed;top:60px;right:50%;width:190px;z-index:10000;padding:10px;margin-right:-150px;border:1px solid #000;background-color:skyblue;font-size:12px">'+
+                        '<h3 style="font-size:12px;margin-bottom:10px">마크업 확인</h3>'+
+                        '<ul>'+
+                        '<li style="margin-bottom:2px"><button class="btn_auto" style="width:100%;padding:2px;border:1px solid #ccc;cursor:pointer;text-align:left" onclick="checkLayerPop(\'login_icon\',\'login_type\',\'0\',\'facebook\')">로그인 아이콘 - 페이스북</button></li>'+
+                        '<li style="margin-bottom:2px"><button class="btn_auto" style="width:100%;padding:2px;border:1px solid #ccc;cursor:pointer;text-align:left" onclick="checkLayerPop(\'login_icon\',\'login_type\',\'0\',\'twitter\')">로그인 아이콘 - 트위터</button></li>'+
+                        '<li style="margin-bottom:2px"><button class="btn_auto" style="width:100%;padding:2px;border:1px solid #ccc;cursor:pointer;text-align:left" onclick="checkLayerPop(\'login_icon\',\'login_type\',\'0\',\'github\')">로그인 아이콘 - 깃허브</button></li>'+
+                        '<li style="margin-bottom:2px"><button class="btn_auto" style="width:100%;padding:2px;border:1px solid #ccc;cursor:pointer;text-align:left" onclick="checkLayerPop(\'login_icon\',\'login_type\',\'0\',\'naver\')">로그인 아이콘 - 네이버</button></li>'+
+                        '<li style="margin-bottom:2px"><button class="btn_auto" style="width:100%;padding:2px;border:1px solid #ccc;cursor:pointer;text-align:left" onclick="checkLayerPop(\'page\',\'slider_lst li\',\'0\',\'0\')">슬라이더 이미지</button></li>'+
+                        '<li style="margin-bottom:2px"><button class="btn_auto" style="width:100%;padding:2px;border:1px solid #ccc;cursor:pointer;text-align:left" onclick="checkLayerPop(\'page2\',\'slider_lst li\',\'1\',\'0\')">슬라이더 이미지2</button></li>'+
+                        '<li style="margin-bottom:2px"><button class="btn_auto" style="width:100%;padding:2px;border:1px solid #ccc;cursor:pointer;text-align:left" onclick="checkLayerPop(\'page2\',\'slider_lst li\',\'2\',\'0\')">슬라이더 이미지3</button></li>'+
+                        '<li style="margin-bottom:2px"><button class="btn_auto" style="width:100%;padding:2px;border:1px solid #ccc;cursor:pointer;text-align:left" onclick="checkLayerPop(\'history\',\'more_dev\',\'0\',\'0\')">History 노출</button></li>'+
+                        '<li style="margin-bottom:2px"><button class="btn_auto" style="width:100%;padding:2px;border:1px solid #ccc;cursor:pointer;text-align:left" onclick="checkLayerPop(\'history\',\'more_dev\',\'0\',\'1\')">History 닫기</button></li>'+
+                        '</ul>'+
+                        '<a href="#" onclick="jQuery(this).parent().hide();return false" style="position:absolute;top:0;right:0;background:#000;color:#fff">닫기</a>'+
+                        '</div>'
+                ;
+        jQuery('body').append(html);
+
+        function checkLayerPop(pCheck,pClassName,pCnt,pTag) {
+            if(pCheck == "page") {
+                jQuery('.' + pClassName).addClass("on");
+                jQuery('.' + pClassName).eq(1).removeClass("on");
+                jQuery('.' + pClassName).eq(2).removeClass("on")
+            } else if(pCheck == "page2") {
+                if(pCnt == 1) {
+                    jQuery('.' + pClassName).addClass("on");
+                    jQuery('.' + pClassName).eq(0).removeClass("on");
+                    jQuery('.' + pClassName).eq(2).removeClass("on")
+                } else {
+                    jQuery('.' + pClassName).addClass("on");
+                    jQuery('.' + pClassName).eq(0).removeClass("on");
+                    jQuery('.' + pClassName).eq(1).removeClass("on");
+                }
+            }
+            if(pCheck == "login_icon") {
+                jQuery('.' + pClassName).attr("class","").addClass("login_type").addClass("login_" + pTag);
+                jQuery('.' + pClassName).find("i").attr("class","").addClass("xi-" + pTag);
+            } else if(pCheck == "submit") {
+                jQuery('.' + pClassName + ' > a').show();
+                if(pTag == 0) {
+                    jQuery('.' + pClassName).addClass("update_save");
+                    jQuery('.save_time').hide();
+                    jQuery('.' + pClassName + ' > a').eq(0).hide();
+                    jQuery('.' + pClassName + ' > a').eq(1).hide();
+                } else {
+                    jQuery('.' + pClassName).removeClass("update_save");
+                    jQuery('.save_time').show();
+                    jQuery('.' + pClassName + ' > a').eq(2).hide();
+                }
+
+            }
+            if(pCheck == "history") {
+                if(pTag == 1){
+                    jQuery('.' + pClassName).removeClass("on");
+                } else{
+                    jQuery('.' + pClassName).addClass("on");
+                }
+            }
+            if(pCheck == "add_file") {
+                if(pTag == 1){
+                    jQuery('.ratio').hide();
+                    jQuery('.lst_file2').hide();
+                } else{
+                    jQuery('.ratio').show();
+                    jQuery('.lst_file2').show();
+                }
+            }
+        }
+    </script>
 </body>
-<script src="../common/js/vendor/jquery-1.11.3.min.js"></script>
-<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-<script src="../common/js/vendor/ie10-viewport-bug-workaround.js"></script>
-<script src="../common/js/src/videoPlayer.js"></script>
-<script src="js/namespace.js"></script>
-<script src="js/src/cfs.util.js"></script>
-<script src="js/src/cfs.mainPage.js"></script>
-<script type="text/javascript">
-    // 푸터 모듈 실행
-    cfs.mainPage.footer.init();
-    var videoPlayer = new VideoPlayer();
-    var htOption = {
-        video: $('.spot_movie_iframe'),
-        playerArea: $('.ly_movie'),
-        dimmedArea: $('.dimmed'),
-        showBtn: $('.btn_video'),
-        closeBtn: $('.btn_close_movie'),
-        videoId: 'iG2MyBtFyYo'
-    };
-    videoPlayer(htOption);
-</script>
 </html>
